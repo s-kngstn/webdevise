@@ -1,0 +1,61 @@
+
+MAIN LANDING PAGE
+
+/// ===== WHAT WE DO SECTION === ///
+:WHAT WE DO
+We specialize in small business web design and development. Every line of code is written by hand to ensure the best performance, which helps bring in more customers to your site and bring more revenue to your business. 
+LEARN MORE <-- Links to 'About'
+
+Mobile First 
+image mobile-phone svg
+
+We start building your site for mobile devices first, then we add on to it to make tablet and desktop.
+
+Fully Responsive Design 
+image digital-content svg
+
+Your website will fit all mobile screens sizes, tablets, and desktop sizes so new clients can access your site from anywhere.
+
+SEO Optimized 
+image search-engine svg
+
+70% of all web traffic is on mobile devices, so we optimize your mobile to perform their best in search engines.
+
+/// ===== PRICING SECTION === ///
+
+piggybank.svg image left side
+
+content right side
+£0 Down, £99 Per Month.
+No Fuss. No Contract.
+
+$0 for a standard 5 page small business website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.
+
+You own your domain, content, listing, and profiles. Cancel anytime with no fees or hassle. 
+
+Hosting Fees Included <-- icon
+
+Hosting fees are built right into the monthly payment.
+
+Unlimited Edits <-- icon
+
+Change anything you want at anytime and it will be done that day.
+
+
+24/7 Customer Service <-- icon
+
+Call direct anytime day or night, no phone trees or automated responses.
+
+
+Google Analytics <-- icon
+
+We install Analytics for free to monitor traffic and where it comes from.
+
+
+// FOR PORTFOLIO SECTION
+GO TO YOUTUBE DENNIS IVY -
+BUILD A PORTFOLIO WEBSITE AND DEPLOY
+use portfolio-1 & 2 images
+TIME @ 1:18:28
+
+info@webdevise.net
