@@ -3,11 +3,11 @@
   --color-white: #ffffff;
   --main-color-light: #8fd0ff;
   --main-color: #1397f5;
-  --main-color-dark: #0044ff;
+  --main-color-dark: #0434c6;
   --light-color: #f4f4f4;
   --medium-color: #ccc;
   --dark-color: #333;
-  --website-width: 1280px;
+  --website-width: 1180px;
 
  
 }  
@@ -44,7 +44,7 @@ img {
   width: 100%;
 }
 
-span {
+.highlight {
   background-image: linear-gradient(to right, #1397f5, #8fd0ff);
   -webkit-background-clip: text;
   color: transparent;
@@ -250,6 +250,22 @@ span {
   letter-spacing: 1px;
 }
 
+#header-inner {
+  background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color:var(--color-white);
+}
+
+#header-inner h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  padding: 1.5rem;
+}
+
 /* =================================== */
 /*       Home A: What We Do            */
 /* =================================== */
@@ -353,6 +369,12 @@ span {
 /* =================================== */
 /*   Home E: Who we are & PriceBox     */
 /* =================================== */
+#home-e {
+  background: url(img/price-wrapper-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
 #home-e img{
   max-width: 290px;
   border-radius: 100px;
@@ -416,6 +438,7 @@ span {
 #home-e .price-preview {
   padding: 2rem;
   text-align: left;
+  background: #fcfeff;
 }
 
 
@@ -429,7 +452,7 @@ span {
 }
 
 #home-e .month {
-  color: #1397f5;
+  color: var(--main-color);
   font-size: 1rem;
 }
 
@@ -518,3 +541,122 @@ span {
   justify-content: center;
   align-items: center;
 }
+
+#main-footer p {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+/* =================================== */
+/*               About-a               */
+/* =================================== */
+
+#about-a .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+#about-a img {
+  max-width: 500px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  box-shadow: 10px 10px 85px -33px rgba(0,0,0,0.75);
+}
+
+#about-a span {
+  letter-spacing: 1px;
+}
+
+#about-a h3 {
+  font-size: 2rem;
+}
+/* =================================== */
+/*    About-b  Quality over quanity    */
+/* =================================== */
+#about-b {
+  background: url(img/price-wrapper-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#about-b .specials {
+  margin-top: 3rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.item svg {
+  width: 100px;
+  height: 100px;
+}
+
+#about-b h2 {
+  font-size: 2rem;
+}
+
+#about-b .circle {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background: var(--main-color);
+  display: inline-block;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+#about-b .circle::before {
+  content: '';
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 100px;
+  background: #8fd0ff;
+  display: inline-block;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  top: -7px;
+  left: -7px;
+  z-index: -1;
+}
+
+#about-b .circle::after {
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  background: #b8e2ff;
+  display: inline-block;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  top: -15px;
+  left: -15px;
+  z-index: -2;
+}
+
+#about-b .circle span {
+  font-size: 2em;
+  color: var(--color-white);
+}
+
+#about-b  a {
+  margin-top: 6rem;
+  margin-bottom: 12rem;
+}
+
+
