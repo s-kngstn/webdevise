@@ -66,13 +66,14 @@
       <div class="contact-box">
       <form action="POST" data-netlify="true">
         <div class="text-fields">
-          <input type="text" class="text-input name-input" placeholder="Name">
-          <input type="email" class="text-input email-input" placeholder="Email Address">
-          <input type="text" class="text-input business-input" placeholder="Business">
-          <input type="tel" class="text-input phone-input" placeholder="Phone">
-          <textarea class="text-input message-input" placeholder="Enter Message"></textarea>
+          <input type="text" id="name" class="text-input name-input" placeholder="Name">
+          <input type="email" id="email" class="text-input email-input" placeholder="Email Address">
+          <input type="text" id="text" class="text-input business-input" placeholder="Business">
+          <input type="tel" id="tel"class="text-input phone-input" placeholder="Phone">
+          <textarea id="message" class="text-input message-input" placeholder="Enter Message"></textarea>
         </div>
-        <button type="submit" class="btn btn-main">Submit</button>
+        <div data-netlify-recaptcha="true"></div>
+        <input type="submit" value="Submit" class="btn btn-main"></input>
       </form>
     </div>
   </div>
