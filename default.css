@@ -1080,6 +1080,7 @@ button[type='submit'] {
 
 .recaptcha {
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 
