@@ -190,7 +190,7 @@ img {
 
 /* Logo */
 #logo {
-  width: 250px;
+  width: 270px;
   height: 70px;
 }
 
@@ -1294,6 +1294,7 @@ button[type='submit'] {
     width: 200px;
     height: 50px;
   }
+  
 
   .intro-text {
     font-size: 1.4rem;
@@ -1409,7 +1410,7 @@ button[type='submit'] {
 
   #logo {
     width: 180px;
-    height: 45px;
+    height: 40px;
   }
 
   .intro-text {
@@ -1430,7 +1431,7 @@ button[type='submit'] {
 
   #logo {
     width: 140px;
-    height: 35px;
+    height: 40px;
   }
 
   #home-f .pre-footer {
