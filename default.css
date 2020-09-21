@@ -766,7 +766,7 @@ img {
 }
 
 #home-f .pre-footer {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-around;
   align-items: start;
@@ -1125,7 +1125,7 @@ button[type='submit'] {
   #services-a .container {  
     flex-direction: column;
     margin-bottom: 1rem;
-    padding: 4rem;
+    padding: 1rem 3rem;
   }
 
   #services-a .container svg {  
