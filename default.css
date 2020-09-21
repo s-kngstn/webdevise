@@ -429,7 +429,7 @@ img {
 
 #header-home .header-content {
   text-align: left;
-  padding-top: 5%;
+  padding-top: 200px;
   display: block;
 }
 
@@ -1116,12 +1116,10 @@ button[type='submit'] {
   #contact-a {
     padding: 2rem 1rem;
   } 
+
 }
 
 @media screen and (max-width: 1130px) {
-  #header-home .header-content {
-    padding-top: 10%;
-  }
   
   .intro-text {
     font-size: 2.5rem;
@@ -1143,7 +1141,7 @@ button[type='submit'] {
 
 @media screen and (max-width: 1030px) {
   #header-home .header-content {
-    padding-top: 20%;
+    padding-top: 10%;
   }
 
   #services-a .container {  
@@ -1249,9 +1247,26 @@ button[type='submit'] {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 815px) {
+  #logo {
+    width: 190px;
+    height: 35px;
+  }
+  
+  #header-home {
+    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color:var(--color-white);
+    height: 50%;
+  }
+
+  #header-home .btn {
+    display: none
+  }
   #header-home .header-content {
-    padding-top: 15%;
+    padding-top: 5%;
   }
 
   #header-home .header-content h1 {
@@ -1282,32 +1297,12 @@ button[type='submit'] {
   }
 
   .intro-text {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (max-width: 550px) {
-  #logo {
-    width: 200px;
-    height: 35px;
-  }
   
-  #header-home {
-    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    color:var(--color-white);
-    height: 50%;
-  }
-
-  #header-home .btn {
-    display: none
-  }
-
-  
-  
-
   .intro-text {
     font-size: 1rem;
   }
@@ -1450,7 +1445,7 @@ button[type='submit'] {
   
 
   .intro-text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
 }
@@ -1458,14 +1453,18 @@ button[type='submit'] {
 /* Smallest Screens */
 @media screen and (max-width: 375px) {
   #header-home .header-content h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   #header-home h2 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .intro-text {
+    font-size: 0.8rem;
+  }
+
+  .lead {
     font-size: 0.8rem;
   }
 
