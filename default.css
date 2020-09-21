@@ -37,8 +37,19 @@ ul {
 }
 
 #links {
-  color: #1397f5;
-  font-weight: 400;
+  color: var(--dark-color);
+  font-weight: 500;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+
+#links:hover,
+#links:focus {
+  color: var(--main-color);
+  font-weight: 500;
 }
 
 img {
