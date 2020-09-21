@@ -1273,8 +1273,8 @@ button[type='submit'] {
 
 @media screen and (max-width: 550px) {
   #logo {
-    width: 220px;
-    height: 30px;
+    width: 200px;
+    height: 35px;
   }
   
   #header-home {
