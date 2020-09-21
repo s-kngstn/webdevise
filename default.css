@@ -42,6 +42,7 @@ ul {
 
 img {
   width: 100%;
+  height: auto;
 }
 
 .highlight {
@@ -762,7 +763,7 @@ img {
 
 #home-f {
   background: var(--main-color);
-  color: var(--main-color-light);
+  color: var(--color-white);
 }
 
 #home-f .pre-footer {
@@ -778,7 +779,7 @@ img {
 }
 
 #home-f a {
-  color: var(--main-color-light);
+  color: var(--color-white);
 }
 
 #home-f h3 {
@@ -1089,7 +1090,7 @@ button[type='submit'] {
 /* =================================== */
 #main-footer {
   background-color: var(--main-color);
-  color: var(--main-color-light);
+  color: var(--color-white);
   height: 5rem;
 }
 #main-footer .footer-content {
