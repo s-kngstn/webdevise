@@ -36,6 +36,9 @@ ul {
   list-style: none;
 }
 
+#links {
+  color: var(--main-color);
+}
 
 img {
   width: 100%;
