@@ -190,8 +190,8 @@ img {
 
 /* Logo */
 #logo {
-  width: 270px;
-  height: 70px;
+  width: 220px;
+  height: 50px;
 }
 
 /* =================================== */
@@ -1243,7 +1243,7 @@ button[type='submit'] {
   }
 
   .intro-text {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
 }
@@ -1272,6 +1272,11 @@ button[type='submit'] {
 }
 
 @media screen and (max-width: 550px) {
+  #logo {
+    width: 220px;
+    height: 30px;
+  }
+  
   #header-home {
     background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
     background-repeat: no-repeat;
@@ -1290,10 +1295,7 @@ button[type='submit'] {
     display: none
   }
 
-  #logo {
-    width: 200px;
-    height: 50px;
-  }
+  
   
 
   .intro-text {
@@ -1408,10 +1410,7 @@ button[type='submit'] {
     font-size: 1.1rem;
   }
 
-  #logo {
-    width: 180px;
-    height: 40px;
-  }
+  
 
   .intro-text {
     font-size: 1.2rem;
@@ -1429,10 +1428,7 @@ button[type='submit'] {
     font-size: 0.9rem;
   }
 
-  #logo {
-    width: 140px;
-    height: 40px;
-  }
+  
 
   #home-f .pre-footer {
     margin-left: 3rem;
