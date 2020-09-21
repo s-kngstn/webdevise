@@ -1078,6 +1078,10 @@ button[type='submit'] {
   color: var(--main-color);
 }
 
+.recaptcha {
+  margin-bottom: 1rem;
+}
+
 
 /* =================================== */
 /*               Footer                */
