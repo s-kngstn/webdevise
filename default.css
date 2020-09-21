@@ -634,12 +634,12 @@ img {
 /* =================================== */
 /*   Home E: Who we are & PriceBox     */
 /* =================================== */
-#home-e {
+/* #home-e {
   background: url(img/price-wrapper-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 #home-e img{
   max-width: 290px;
   border-radius: 100px;
@@ -761,7 +761,7 @@ img {
 /* =================================== */
 
 #home-f {
-  background: linear-gradient(to bottom, #3b95e8, #3b95e8,var(--main-color-dark));
+  background: var(--main-color);
   color: var(--main-color-light);
 }
 
@@ -826,12 +826,12 @@ img {
 /* =================================== */
 /*    About-b  Quality over quanity    */
 /* =================================== */
-#about-b {
+/* #about-b {
   background: url(img/price-wrapper-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 #about-b .specials {
   margin-top: 3rem;
@@ -976,13 +976,13 @@ img {
 /* =================================== */
 /*            Contact Form             */
 /* =================================== */
-#contact-a { 
+/* #contact-a { 
   background: url(img/price-wrapper-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 3rem;
-}
+} */
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: 
@@ -1083,7 +1083,7 @@ button[type='submit'] {
 /*               Footer                */
 /* =================================== */
 #main-footer {
-  background-color: var(--main-color-dark);
+  background-color: var(--main-color);
   color: var(--main-color-light);
   height: 5rem;
 }
