@@ -37,7 +37,8 @@ ul {
 }
 
 #links {
-  color: var(--main-color);
+  color: #1397f5;
+  font-weight: 400;
 }
 
 img {
