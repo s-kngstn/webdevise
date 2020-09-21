@@ -1167,8 +1167,30 @@ button[type='submit'] {
     opacity: 1;
   }
 
+  #header-home {
+    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color:var(--color-white);
+    height: 50%;
+  }
+
+  #header-home .btn {
+    display: none
+  }
+  #header-home .header-content {
+    padding-top: 5%;
+  }
+
   #header-home .header-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+
+  .lead {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 
   #main-nav ul {
@@ -1257,31 +1279,6 @@ button[type='submit'] {
     height: 35px;
   }
   
-  #header-home {
-    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    color:var(--color-white);
-    height: 50%;
-  }
-
-  #header-home .btn {
-    display: none
-  }
-  #header-home .header-content {
-    padding-top: 5%;
-  }
-
-  #header-home .header-content h1 {
-    font-size: 3rem;
-    letter-spacing: 1px;
-  }
-
-  .lead {
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-  }
 
   #home-f .pre-footer {
     margin-top: 3rem;
