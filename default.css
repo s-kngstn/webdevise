@@ -1442,6 +1442,10 @@ button[type='submit'] {
     font-size: 1.1rem;
   }
 
+  #logo {
+    width: 115px;
+    height: 25px;
+  }
   
 
   .intro-text {
