@@ -10,3 +10,13 @@ tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
 tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1});
 tl.fromTo(".header-content", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
+
+function bgChanger(){
+  if(this.scrollY > 3500) {
+    document.body.classList.add('bg-active');
+  } else {
+    document.body.classList.remove('bg-active');
+  }
+}
+
+window.addEventListener('scroll', bgChanger);

@@ -21,11 +21,16 @@
 }
 
 body {
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Manrope', sans-serif;
+  /*font-family: 'Poppins', sans-serif;
+  */font-family: 'Manrope', sans-serif;
   line-height: 1.6;
   background: var(--color-white);
-  color: var(--dark-color)
+  color: var(--dark-color);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 a {
@@ -130,6 +135,10 @@ img {
 
 .thin-font {
   font-weight: 300;
+}
+
+.bg-active {
+  background: rgb(192, 234, 255);
 }
 
 /* Padding */
@@ -605,6 +614,7 @@ img {
 }
 
 #home-d .post {
+  background-color: var(--color-white);
   border-bottom: 4px solid var(--main-color);
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -662,6 +672,8 @@ img {
   border: #dbf0ff 10px solid;
 }
 
+
+
 #home-e .owner-name {
   letter-spacing: 0.5px;
 }
@@ -670,6 +682,7 @@ img {
 }
 /* prices */
 #home-e .price {
+  background-color: var(--color-white);
   border: 1px solid #dbf1ff;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -679,7 +692,6 @@ img {
   overflow: hidden;
   margin-bottom: 3rem;
   box-shadow: 1px 3px 8px 4px rgb(0, 0, 0, 0.15);
-  background-color: #fcfeff;
   padding-bottom: 2rem;
 }
 
@@ -719,7 +731,6 @@ img {
 #home-e .price-preview {
   padding: 2rem;
   text-align: left;
-  background: #fcfeff;
 }
 
 
