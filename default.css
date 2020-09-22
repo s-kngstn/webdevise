@@ -58,9 +58,7 @@ img {
 }
 
 .highlight {
-  background-image: linear-gradient(to right, #1397f5, #8fd0ff);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: var(--main-color);
 }
 /* =================================== */
 /*              Utilities              */
@@ -181,7 +179,7 @@ img {
 .bottom-line {
   height: 2px;
   width: 5rem;
-  background-color: var(--main-color-light);
+  background-color: var(--main-color);
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -431,7 +429,7 @@ img {
 #header-home {
   position: relative;
   /* background: linear-gradient(to bottom, #0044ff, #0088ff);  */
-  background: url(img/hero-background.svg);
+  background: url(img/hero-background-1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -613,7 +611,7 @@ img {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   overflow: hidden;
-  box-shadow: 3px 25px 56px -22px rgba(0,0,0,0.75);
+  box-shadow: 0px 29px 27px -7px rgba(0,0,0,0.36);
   margin-bottom: 5rem
 }
 
@@ -826,7 +824,7 @@ img {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
-  box-shadow: 5px 5px 45px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px 29px 35px -19px rgba(0,0,0,0.38);
 }
 
 #about-a span {
@@ -1078,7 +1076,7 @@ button[type='submit'] {
 
 .contact-details ul li a {
   font-size: 1.3rem;
-  color:var(--main-color-light);
+  color: var(--main-color);
   transition: all .3s;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -1088,7 +1086,7 @@ button[type='submit'] {
 
 .contact-details ul li a:hover {
   font-size: 1.3rem;
-  color: var(--main-color);
+  color: #1778bd;
 }
 
 .recaptcha {
