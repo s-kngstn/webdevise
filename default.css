@@ -1029,17 +1029,28 @@ img {
   box-shadow: 0px 7px 28px -5px rgba(0,0,0,0.39);
 }
 
+
 input,
 textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 1.3rem;
   outline: none;
   border: 1px solid var(--main-color-light);
+  border-bottom: 1px solid var(--main-color-light);;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  display: block;
+  margin: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+  border-bottom: 2px solid var(--main-color);
 }
 
 textarea {
