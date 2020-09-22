@@ -1206,6 +1206,10 @@ button[type='submit'] {
     margin-bottom: 1rem;
   }
 
+  #services-a li {
+    font-size: 0.9rem;
+  }
+
   #main-nav ul {
     visibility: hidden;
   }
