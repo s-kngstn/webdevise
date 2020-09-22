@@ -36,7 +36,7 @@ ul {
   list-style: none;
 }
 
-#links {
+.links {
   color: var(--dark-color);
   font-weight: 500;
   transition: all .3s;
@@ -46,8 +46,8 @@ ul {
   -o-transition: all .3s;
 }
 
-#links:hover,
-#links:focus {
+.links:hover,
+.links:focus {
   color: var(--main-color);
   font-weight: 500;
 }
