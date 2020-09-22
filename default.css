@@ -21,7 +21,8 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Manrope', sans-serif;
   line-height: 1.6;
   background: var(--color-white);
   color: var(--dark-color)
