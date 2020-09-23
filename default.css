@@ -148,7 +148,7 @@ img {
 }
 
 .bg-active {
-  background: rgb(192, 234, 255);
+  background: #c0eaff;
 }
 
 /* Padding */
@@ -983,7 +983,7 @@ img {
 /*         Services-B Features         */
 /* =================================== */
 #services-b {
-  background: #f6fbff;
+  background: #e2f3fc;
   padding: 5rem 3rem;
 }
 #services-b .features {
