@@ -1042,7 +1042,9 @@ img {
 
 input,
 textarea {
-  font-family: 'Manrope', sans-serif;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1.3rem;
   outline: none;
   border: 1px solid var(--main-color-light);
