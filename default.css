@@ -452,7 +452,7 @@ img {
   background-position: top;
   height: 100vh; 
   color:var(--color-white);
-  overflow: hidden;
+  
 }
 /* Header Content */
 
@@ -654,7 +654,7 @@ img {
 }
 
 #home-d .post-preview h4 {
-  color: rgb(151, 151, 151);
+  color: #656464;
   font-weight: 400;
   font-size: 1.3rem;
 }
