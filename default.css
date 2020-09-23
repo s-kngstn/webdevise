@@ -1,6 +1,6 @@
 /* Variabes */
 :root {
-  --color-white: #ffffff;
+  --color-white: #F3F3F3;
   --main-color-light: #8fd0ff;
   --main-color: #1397f5;
   --main-color-dark: #0434c6;
@@ -213,8 +213,8 @@ img {
 
 /* Logo */
 #logo {
-  width: 222px;
-  height: 50px;
+  width: 172px;
+  height: 45px;
 }
 
 /* =================================== */
@@ -253,6 +253,7 @@ img {
   border-color: var(--main-color-light);
 }
 #main-nav a.current {
+  color: #fff;
   border-color: var(--main-color-light);
 }
 
@@ -441,18 +442,19 @@ img {
 #header-home {
   position: relative;
   /* background: linear-gradient(to bottom, #0044ff, #0088ff);  */
-  background: url(img/hero-background-1.svg);
+  background: url(img/hero-background-2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   height: 100vh; 
   color:var(--color-white);
+  overflow: hidden;
 }
 /* Header Content */
 
 #header-home .header-content {
   text-align: left;
-  padding-top: 70px;
+  padding-top: 3rem;
   display: block;
 }
 
@@ -800,8 +802,8 @@ img {
 }
 
 #logo-blue {
-  width: 256px;
-  height: 75px;
+  width: 172px;
+  height: 45px;
 }
 
 #home-f a {
@@ -1187,42 +1189,7 @@ button[type='submit'] {
 }
 
 @media screen and (max-width: 1024px) {
-   /* Mobile Nav */
-   .navigation {
-    visibility: visible;
-    opacity: 1;
-  }
-  #main-nav ul {
-    visibility: hidden;
-  }
-
-  #header-home .btn {
-    margin-bottom: 1rem;
-  }
-
-  #header-home {
-    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    color:var(--color-white);
-    height: 50%;
-  }
-
- 
-  #header-home .header-content {
-    padding-top: 2%;
-  }
-
-  #header-home .header-content h1 {
-    font-size: 4.5rem;
-    letter-spacing: 1px;
-  }
-
-  .lead {
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-  }
+  
 
   #services-a .container {  
     flex-direction: column;
@@ -1237,7 +1204,14 @@ button[type='submit'] {
 }
 /* //Medium Screens */
 @media screen and (max-width: 950px) {
- 
+  /* Mobile Nav */
+  .navigation {
+    visibility: visible;
+    opacity: 1;
+  }
+  #main-nav ul {
+    visibility: hidden;
+  }
 
   #services-a li {
     font-size: 0.9rem;
@@ -1323,7 +1297,7 @@ button[type='submit'] {
 
 @media screen and (max-width: 815px) {
   #logo {
-    width: 180px;
+    width: 172px;
     height: 35px;
   }
 
@@ -1355,6 +1329,34 @@ button[type='submit'] {
 }
 
 @media screen and (max-width: 550px) {
+
+  #header-home .btn {
+    margin-bottom: 1rem;
+  }
+
+  #header-home {
+    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color:var(--color-white);
+    height: 50%;
+  }
+
+ 
+  #header-home .header-content {
+    padding-top: 2%;
+  }
+
+  #header-home .header-content h1 {
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+  }
+
+  .lead {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
   
   .intro-text {
     font-size: 1rem;
