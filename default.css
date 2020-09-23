@@ -22,7 +22,11 @@
 
 body {
   /*font-family: 'Poppins', sans-serif;
-  */font-family: 'Manrope', sans-serif;
+  */
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   line-height: 1.6;
   background: var(--color-white);
   color: var(--dark-color);
