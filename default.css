@@ -43,7 +43,7 @@ ul {
 }
 
 .links {
-  color: var(--dark-color);
+  color: #0c619e;
   font-weight: 500;
   transition: all .3s;
   -webkit-transition: all .3s;
