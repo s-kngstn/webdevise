@@ -128,7 +128,7 @@ img {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .text-center {
@@ -452,18 +452,20 @@ img {
 
 #header-home .header-content {
   text-align: left;
-  padding-top: 80px;
+  padding-top: 70px;
   display: block;
 }
 
 #header-home .header-content h1 {
   font-size: 5rem;
   line-height: 1.1;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 #header-home .lead {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /* HEADER INNER */
@@ -1158,6 +1160,10 @@ button[type='submit'] {
     padding: 2rem 1rem;
   } 
 
+  #header-home .header-content {
+    padding-top: 4%;
+  }
+
 }
 
 @media screen and (max-width: 1130px) {
@@ -1180,9 +1186,42 @@ button[type='submit'] {
 
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
+   /* Mobile Nav */
+   .navigation {
+    visibility: visible;
+    opacity: 1;
+  }
+  #main-nav ul {
+    visibility: hidden;
+  }
+
+  #header-home .btn {
+    margin-bottom: 1rem;
+  }
+
+  #header-home {
+    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color:var(--color-white);
+    height: 50%;
+  }
+
+ 
   #header-home .header-content {
-    padding-top: 10%;
+    padding-top: 2%;
+  }
+
+  #header-home .header-content h1 {
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+  }
+
+  .lead {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 
   #services-a .container {  
@@ -1198,45 +1237,13 @@ button[type='submit'] {
 }
 /* //Medium Screens */
 @media screen and (max-width: 950px) {
-  /* Mobile Nav */
-  .navigation {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  #header-home {
-    background:  linear-gradient(to bottom right, #0434c6f6, #0088fff5), url(img/code-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    color:var(--color-white);
-    height: 50%;
-  }
-
-  #header-home .btn {
-    display: none
-  }
-  #header-home .header-content {
-    padding-top: 5%;
-  }
-
-  #header-home .header-content h1 {
-    font-size: 3rem;
-    letter-spacing: 1px;
-  }
-
-  .lead {
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-  }
+ 
 
   #services-a li {
     font-size: 0.9rem;
   }
 
-  #main-nav ul {
-    visibility: hidden;
-  }
+  
 
   #home-b .container {
     display: flex;
@@ -1316,8 +1323,12 @@ button[type='submit'] {
 
 @media screen and (max-width: 815px) {
   #logo {
-    width: 185px;
+    width: 180px;
     height: 35px;
+  }
+
+  #header-home .header-content h1 {
+    font-size: 3.5rem;
   }
   
 
@@ -1347,6 +1358,10 @@ button[type='submit'] {
   
   .intro-text {
     font-size: 1rem;
+  }
+
+  #header-home .header-content h1 {
+    font-size: 3rem;
   }
 
   .section-title {
