@@ -217,8 +217,8 @@ img {
 
 /* Logo */
 #logo {
-  width: 172px;
-  height: 45px;
+  width: auto;
+  height: 35px;
 }
 
 /* =================================== */
@@ -741,6 +741,7 @@ img {
 #home-e .price-preview {
   padding: 2rem;
   text-align: left;
+  font-size: 1rem;
 }
 
 
@@ -806,8 +807,8 @@ img {
 }
 
 #logo-blue {
-  width: 172px;
-  height: 45px;
+  width: auto;
+  height: 32px;
 }
 
 #home-f a {
@@ -1245,6 +1246,7 @@ button[type='submit'] {
     grid-template-columns: 1fr;
     position: relative;
     padding: 0 3rem;
+    font-size: 0.9rem;
   }
   #home-e {
     padding: 1rem;
@@ -1303,8 +1305,8 @@ button[type='submit'] {
 
 @media screen and (max-width: 815px) {
   #logo {
-    width: 172px;
-    height: 35px;
+    width: auto;
+    height: 27px;
   }
 
   #header-home .header-content h1 {
@@ -1319,6 +1321,7 @@ button[type='submit'] {
     justify-content: space-around;
     align-items: start;
     margin-left: 6rem;
+    font-size: 0.9rem;
   }
 
   #home-f h3 {
@@ -1332,6 +1335,10 @@ button[type='submit'] {
   .intro-text {
     font-size: 1.3rem;
   }
+}
+
+.navigation__link:link, .navigation__link:visited {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 550px) {
@@ -1508,7 +1515,7 @@ button[type='submit'] {
   }
 
   #logo {
-    width: 115px;
+    width: auto;
     height: 25px;
   }
   
