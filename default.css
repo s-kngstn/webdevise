@@ -1341,6 +1341,7 @@ button[type='submit'] {
   font-size: 1.5rem;
 }
 
+
 @media screen and (max-width: 550px) {
 
   #header-home .btn {
@@ -1377,6 +1378,9 @@ button[type='submit'] {
 
   #header-home .header-content h1 {
     font-size: 3rem;
+  }
+  #services-b .features {
+    font-size: 0.9rem;
   }
 
   .section-title {
