@@ -723,7 +723,7 @@ h3 {
 #home-e .price-main {
   z-index: 1;
   border: none;
-  box-shadow: 1px 6px 9px 8px #DFF9bA;
+  box-shadow: 1px 6px 9px 8px #b9ff7e;
 }
 
 #home-e .price-tag {
@@ -738,7 +738,7 @@ h3 {
 #home-e .price-tag-main {
   border: none;
   padding: 1.5rem;
-  background-color: #dff8ca;
+  background-color: #b9ff7e;
 }
 
 #home-e .price-tag h2 {
