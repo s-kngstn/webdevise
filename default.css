@@ -471,7 +471,7 @@ h3 {
   display: inline-block;
   position: absolute;
   top: -10%;
-  right: 5%;
+  right: -5%;
 }
 
 #header-home .header-content {
