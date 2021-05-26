@@ -464,6 +464,13 @@ h3 {
 }
 /* Header Content */
 
+.animation {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  right: 15%;
+}
+
 #header-home .header-content {
   text-align: left;
   margin-top: 9.5rem;
