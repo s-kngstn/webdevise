@@ -451,6 +451,9 @@ h3 {
 /* =================================== */
 
 /* Header */
+.header-content {
+  position: relative;
+}
 #header-home {
   position: relative;
   background: linear-gradient(to bottom, #0044ff, #0088ff); 
@@ -467,10 +470,8 @@ h3 {
 .animation {
   display: inline-block;
   position: absolute;
-  /* top: 20%;
-  right: 15%; */
-  top: 10rem;
-  right: 20rem;
+  top: -10%;
+  right: 5%;
 }
 
 #header-home .header-content {
