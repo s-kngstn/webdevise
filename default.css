@@ -469,8 +469,8 @@ h3 {
   position: absolute;
   /* top: 20%;
   right: 15%; */
-  top: 200px;
-  right: 250px;
+  top: 10rem;
+  right: 20rem;
 }
 
 #header-home .header-content {
