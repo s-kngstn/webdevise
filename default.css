@@ -75,6 +75,10 @@ img {
   color: var(--main-color);
 }
 
+h3 {
+  letter-spacing: 1px;
+}
+
 /* =================================== */
 /*              Utilities              */
 /* =================================== */
@@ -462,7 +466,7 @@ img {
 
 #header-home .header-content {
   text-align: left;
-  padding-top: 3rem;
+  margin-top: 4rem;
   display: block;
 }
 
@@ -689,7 +693,7 @@ img {
 
 
 #home-e .owner-name {
-  letter-spacing: 0.5px;
+ text-transform: uppercase; 
 }
 #home-e .owner-title {
   color: rgb(84, 84, 84);
