@@ -1243,7 +1243,7 @@ button[type='submit'] {
   }
 
   .animation {
-    top: 10%;
+   display: none; 
   }
 
   
