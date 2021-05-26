@@ -1242,6 +1242,10 @@ button[type='submit'] {
     font-size: 0.9rem;
   }
 
+  .animation {
+    top: 10%;
+  }
+
   
 
   #home-b .container {
