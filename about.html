@@ -171,7 +171,10 @@
       <footer id="main-footer">
         <div class="footer-content container">
           <p>This page was 100% hand coded with 💙 by :webDevise Designs.</p>
-          <p>Copyright &copy; 2020. All Rights Reserved.</p>
+          <p>Copyright &copy; <script>
+            new Date().getFullYear() > 2010 &&
+              document.write(" " + new Date().getFullYear());
+          </script>:. All Rights Reserved.</p>
         </div>
       </footer>
   <script src="https://kit.fontawesome.com/8e925122cf.js" crossorigin="anonymous"></script>
